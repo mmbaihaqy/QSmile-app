@@ -1,0 +1,434 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+/*Bagian Navbar*/
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo-navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70.5%;
+    margin: 0 auto;
+}
+
+.logo-navbar .logo {
+    max-height: 50px;
+}
+
+.menu-navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+    margin: auto;
+}
+
+.menu-navbar .menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-navbar .menu li {
+    margin: 0 15px;
+}
+
+.menu-navbar .menu li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu li a{
+    margin-right: 30px;
+}
+
+.menu-navbar .menu li a:hover {
+    text-decoration: underline;
+}
+
+.Bar {
+    width: 100%;
+    height: 1.5px;
+    background-color: rgb(163, 163, 163);
+}
+
+.no-underline {
+    text-decoration: none;
+    color: #000000;
+}
+
+.shadow1::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 100px rgb(52, 130, 255);
+    top: 0%;
+    bottom: 85%;
+    left: 0px;
+    right: 0px;
+    border-radius: 0px / 10px;
+}/*End Bagian Navbar*/
+
+/*Footer*/
+.footer{
+    margin-top: 150px;
+    background-color: #F2F7FF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Copyright{
+    text-align: center;
+    color: grey;
+    font-size: smaller;
+}
+
+.footone{
+    background-color: #ffffff;
+    border-radius: 0px 30px 0px 30px;
+    margin-right: 450px;
+}
+
+.section1foot{
+    position: relative;
+    margin-left: 450px;
+    right: 186px;
+    bottom: 50px;
+}
+
+.textfoot1{
+    top: 155px;
+    left: 70px;
+}
+.textfoot2{
+    top: 223px;
+    left: 70px;
+}
+.textfoot3{
+    top: 283px;
+    left: 70px;
+}
+
+.isifoot{
+    display: grid;
+}
+
+.kananfooter{
+    left: 350px;
+    top: 90px;
+}
+
+.tomboljanjifooter {
+    border-radius: 100px;
+    background-color: #0962EA;
+    color: white;
+    padding: 4px 56px 8px 56px;
+    text-decoration: none;
+    position: absolute;
+    top: 75px;
+    left: 0px;
+}
+
+.kananfooterbawah1{
+    left: 350px;
+    top: 220px;
+}
+
+.kananfooterbawah1 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.kananfooterbawah2{
+    left: 550px;
+    top: 220px;
+}
+
+.kananfooterbawah2 a{
+    text-decoration: none;
+    color: #000000;
+}
+/*End Footer*/
+
+
+
+/* Konten halaman */
+
+.beranda{
+    z-index: -1;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kiri .row h1{
+    color: #062D92;
+}
+
+.kiri .row img {
+    margin-top: 15px;
+}
+
+.kiri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    height: 750px;
+    margin-left: 190px;
+}
+
+
+.kanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    max-width: 200px;
+    height: 750px;
+    margin-right: 20px;
+}
+
+.tombol{
+    padding: 20px;
+}
+
+.tomboljanji {
+    border-radius: 100px;
+    background-color: #0962EA;
+    color: white;
+    padding: 4px 56px 8px 56px;
+    text-decoration: none;
+}
+
+.one{
+    background-color: #ffffff;
+    padding: 18px;
+    padding-top: 20px;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.tombolsection{
+    border-radius: 100px;
+    background-color: #0962EA;
+    color: white;
+    padding: 8px 15px 10px 15px;
+    top : 122px;
+    left: 33px;
+    border: none;
+}
+
+.profession {
+    text-align: center;
+}
+
+
+.kiridua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    height: 400px;
+    margin-left: 250px;
+}
+
+.gambarpasion {
+    position: absolute;
+    top: 10px;
+    left: 350px;
+}
+
+.ketiga{
+    margin-top: 100px;
+    background-position: -1;
+    background-image: url('../img/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.kiriketiga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    height: 530px;
+    margin-left: 250px;
+}
+
+.tombollayanan{
+    border-radius: 100px;
+    background-color: #0962EA;
+    color: white;
+    padding: 6px 56px 10px 56px;
+    text-decoration: none;
+}
+
+.gambarlayanan{
+    position: absolute;
+    top: 310px;
+    right: 20px;
+    z-index: 0;
+}
+
+.isilayanan{
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.isijadwal{
+    z-index: 1;
+    margin-right: 530px;
+}
+
+.isigambarlayanan{
+    height: 100px;
+}
+
+.tombolisilayanan{
+    border-radius: 100px;
+    background-color: #0962EA;
+    color: white;
+    padding: 8px 15px 10px 15px;
+    top : 480px;
+    left: 33px;
+    border: none;
+}
+
+/* Buat Janji */
+.kontenbuatjanji{
+    z-index: 0;
+    background-image: url(../img/tooth\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 200px;
+}
+
+.buatjanji{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+.buatjanji p{
+    position: relative;
+    top: 100px;
+}
+
+input{
+    border-radius: 100px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.formjanji{
+    position: relative;
+    top: 250px;
+    left: 33px;
+    margin-bottom: 100px;
+}
+
+.tomboljanji-t {
+    border-radius: 100px;
+    background-color: #0962EA;
+    color: white;
+    padding: 4px 56px 8px 56px;
+    text-decoration: none;
+    position: relative;
+    top: 150%;
+    left: 35%;
+}
+/* END Buat Janji */
+
+/* Dokter */
+.kiridokter .row{
+    margin-left: 190px;
+}
+
+.kiridokter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    height: 380px;
+    margin-bottom: 1000px;
+}
+
+.dokter1{
+    position: absolute;
+    top: 400px;
+    right: 150px;
+}
+.dokter2{
+    position: absolute;
+    top: 880px;
+    right: 150px;
+}
+
+.doktercard{
+    border: none;
+    margin-left: 20px;
+}
+
+.card-text {
+    margin-top: 30px;
+}
+
+.wawan{
+    margin-top: 10px;
+}
+
+.jadwaldokter{
+    text-align: center;
+}
+
+/* END Dokter */
+
+
+
+/* Menghapus garis bawah pada tautan di logo-navbar */
